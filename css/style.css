@@ -301,4 +301,7 @@ footer {
         font-size: 200%;
     }
 
+   .dropdown-menu{
+        right: 30%;
+    }
   }
