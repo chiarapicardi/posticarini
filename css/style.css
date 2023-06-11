@@ -49,7 +49,7 @@ h1{
 .pagina {
     font-size: 20px;
     font-weight: bold;
-    background-color: yellow;
+    background-color: #ffff00;
     border-radius: 70px; 
     margin-top: 0%;
     color: black;
@@ -102,7 +102,7 @@ body{
     font-weight: 400;
     margin: 0%; 
     padding: 0%; 
-    background-color:rgb(244, 242, 242);
+    background-color:#f4f2f2;
     font-family: 'Lora', serif;
     font-family: 'Playfair Display', serif;
 }
@@ -173,8 +173,17 @@ body{
     border-radius: 10%;
 }
 
+#homepage {
+    width: 55%;
+}
+
 #kintergarden2{
     width: 90%;
+}
+
+#reel {
+    border-radius: 5%;
+    width: 70%;
 }
 
 .colberlino {
@@ -214,7 +223,7 @@ section {
 .locali:hover{
     transition: 0.5s;
     text-decoration: underline;
-    text-decoration-color: yellow;
+    text-decoration-color: #ffff00;
     text-decoration-thickness: 20%;
 }
 
@@ -224,7 +233,7 @@ section {
 
 footer {
     background-color: black;
-    color: gray; 
+    color: #808080; 
     text-align: center;
     font-weight: lighter;
     font-size: 5%;
@@ -262,6 +271,7 @@ footer {
 
 .statistiche{
     width: 95%;
+    border-radius: 5%;
 }
 
 :hover#logo {
@@ -270,6 +280,11 @@ footer {
 
 .col-sm-12 {
     max-width: 750px;
+}
+
+.insta {
+    width: 94%;
+    border-radius: 5%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -303,5 +318,13 @@ footer {
     
     .dropdown-menu{
         right: 30%;
+    }
+
+    #homepage{
+        width: 100%;
+    }
+
+    #reel {
+        width: 95%;
     }
   }
