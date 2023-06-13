@@ -287,6 +287,11 @@ footer {
     border-radius: 5%;
 }
 
+.risultati {
+    width: 90%;
+    border-radius: 5%;
+}
+
 @media only screen and (max-width: 768px) {
     .row {
       display: list-item ;
